@@ -17,6 +17,7 @@
     "@fontsource-variable/geist": "^5.0.1",
     "@fontsource-variable/source-serif-4": "^5.1.1",
     "@sveltejs/adapter-auto": "^4.0.0",
+    "@sveltejs/enhanced-img": "^0.4.4",
     "@sveltejs/kit": "^2.16.0",
     "@sveltejs/vite-plugin-svelte": "^5.0.0",
     "@tailwindcss/vite": "^4.0.1",

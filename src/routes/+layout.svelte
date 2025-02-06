@@ -6,8 +6,8 @@
 
   const currentYear = new Date().getFullYear();
   let { data, children }: { data: LayoutData; children: Snippet } = $props();
-  import logo from "$lib/images/logo/logo.png";
-  import bg from "$lib/images/bg.jpg";
+  import logo from "$lib/images/logo/logo.png?enhanced";
+  import bg from "$lib/images/bg.jpg?enhanced";
   import { Phone } from "lucide-svelte";
 </script>
 
@@ -18,12 +18,12 @@
   <div class="flex max-md:flex-col md:min-h-screen bg-stone-50 text-stone-800">
     <!-- Left side with fixed background -->
     <div class="md:w-1/2 xl:w-1/3 relative z-10 md:fixed top-0 left-0 md:h-screen">
-      <img src={bg} alt="" class="w-full h-full object-cover absolute -z-10" />
+      <enhanced:img src={bg} sizes="min(1440px, 100vw)" alt="" class="w-full h-full object-cover absolute -z-10" />
       <div class="h-full flex flex-col justify-center items-end py-8 md:px-20 bg-linear-to-tr from-stone-200 via-stone-200/90 to-stone-200/70">
         <div class="flex flex-col justify-between h-full max-h-[50vh] md:-mt-20 gap-4">
           <!-- Upper -->
           <div class="flex flex-col items-center md:items-end gap-6">
-            <img src={logo} alt="Freedom Electric Logo" class="max-w-[80%] md:max-w-full lg:max-w-96 h-auto object-contain -mt-10" />
+            <enhanced:img src={logo} alt="Freedom Electric Logo" class="max-md:mx-auto max-w-[80%] md:max-w-full lg:max-w-96 h-auto object-contain -mt-10" />
             <h1 class="sr-only">Freedom Electric</h1>
             <!-- <p class="text-xs font-bold uppercase tracking-wider">Industrial Electrical Contractors</p> -->
           </div>
