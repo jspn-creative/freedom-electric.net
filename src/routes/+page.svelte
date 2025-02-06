@@ -15,11 +15,11 @@
         <div class="flex max-lg:flex-col gap-6">
           <div class="rounded-md outline-2 outline-stone-200 py-4 pl-6 pr-8">
             <h4 class="font-serif font-semibold text-stone-500 text-sm/4">Oregon Office</h4>
-            <p class="text-stone-300 text-xs">Tillamook, Oregon</p>
+            <p class="text-stone-400 text-xs">Tillamook, Oregon</p>
           </div>
           <div class="rounded-md outline-2 outline-stone-200 py-4 pl-6 pr-8">
             <h4 class="font-serif font-semibold text-stone-500 text-sm/4">Texas Office</h4>
-            <p class="text-stone-300 text-xs">Winona, Texas</p>
+            <p class="text-stone-400 text-xs">Winona, Texas</p>
           </div>
         </div>
       </div>

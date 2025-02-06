@@ -5,7 +5,7 @@ export const siteConfig = {
 	imageUrl: '',
 	keywords: ['electrician', 'electrical contractor', 'Oregon', 'Texas'],
 	author: 'Freedom Electric',
-	themeColor: '#AC0F17'
+	themeColor: '#E7E5E4'
 };
 
 export type SiteConfig = typeof siteConfig;
