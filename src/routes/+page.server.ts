@@ -49,6 +49,7 @@ export const actions = {
 			await sendgridClient.send({
 				to: CONTACT_FORM_RECIPIENT,
 				from: 'Freedom Electric Website <noreply@jaspin.io>',
+				replyTo: data.get('email')?.toString(),
 				subject: `[New Form Submission] from ${fullName}`,
 				html: `
 				Someone submitted the contact form on https://freedom-electric.net! Here are the details:
