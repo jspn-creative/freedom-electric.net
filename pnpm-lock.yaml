@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@vercel/speed-insights':
+        specifier: ^1.1.0
+        version: 1.1.0(@sveltejs/kit@2.17.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.19.8)(vite@6.1.0(jiti@2.4.2)(lightningcss@1.29.1)))(svelte@5.19.8)(vite@6.1.0(jiti@2.4.2)(lightningcss@1.29.1)))(svelte@5.19.8)
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -607,6 +610,29 @@ packages:
 
   '@types/estree@1.0.6':
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
+
+  '@vercel/speed-insights@1.1.0':
+    resolution: {integrity: sha512-rAXxuhhO4mlRGC9noa5F7HLMtGg8YF1zAN6Pjd1Ny4pII4cerhtwSG4vympbCl+pWkH7nBS9kVXRD4FAn54dlg==}
+    peerDependencies:
+      '@sveltejs/kit': ^1 || ^2
+      next: '>= 13'
+      react: ^18 || ^19 || ^19.0.0-rc
+      svelte: '>= 4'
+      vue: ^3
+      vue-router: ^4
+    peerDependenciesMeta:
+      '@sveltejs/kit':
+        optional: true
+      next:
+        optional: true
+      react:
+        optional: true
+      svelte:
+        optional: true
+      vue:
+        optional: true
+      vue-router:
+        optional: true
 
   acorn-typescript@1.4.13:
     resolution: {integrity: sha512-xsc9Xv0xlVfwp2o7sQ+GCQ1PgbkdcpWdTzrwXxO3xDMTAywVS3oXVOcOHuRjAPkS4P9b+yc/qNF15460v+jp4Q==}
@@ -1449,6 +1475,11 @@ snapshots:
   '@types/cookie@0.6.0': {}
 
   '@types/estree@1.0.6': {}
+
+  '@vercel/speed-insights@1.1.0(@sveltejs/kit@2.17.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.19.8)(vite@6.1.0(jiti@2.4.2)(lightningcss@1.29.1)))(svelte@5.19.8)(vite@6.1.0(jiti@2.4.2)(lightningcss@1.29.1)))(svelte@5.19.8)':
+    optionalDependencies:
+      '@sveltejs/kit': 2.17.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.19.8)(vite@6.1.0(jiti@2.4.2)(lightningcss@1.29.1)))(svelte@5.19.8)(vite@6.1.0(jiti@2.4.2)(lightningcss@1.29.1))
+      svelte: 5.19.8
 
   acorn-typescript@1.4.13(acorn@8.14.0):
     dependencies:

@@ -5,6 +5,8 @@
   import "../app.css";
 
   let { data, children }: { data: LayoutData; children: Snippet } = $props();
+  import { injectSpeedInsights } from "@vercel/speed-insights/sveltekit";
+  injectSpeedInsights();
 </script>
 
 <Metadata />

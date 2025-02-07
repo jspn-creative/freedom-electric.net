@@ -11,6 +11,7 @@
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
   },
   "dependencies": {
+    "@vercel/speed-insights": "^1.1.0",
     "clsx": "^2.1.1",
     "lucide-svelte": "^0.474.0",
     "tailwind-merge": "^2.6.0",
