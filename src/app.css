@@ -30,7 +30,11 @@
    box-shadow: 0 0 0 1000px var(--color-stone-100) inset !important;
    -webkit-text-fill-color: var(--color-stone-500) !important;
  }
-
+textarea {
+  field-sizing: content;
+  width: 100%;
+  min-height: 3rem;
+}
 }
 
 @theme {
