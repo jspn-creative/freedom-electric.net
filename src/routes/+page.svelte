@@ -58,12 +58,12 @@
 
                 <div class="flex md:max-lg:flex-col gap-6">
                   <div class="rounded-md outline-2 outline-stone-200 py-4 pl-6 pr-8">
-                    <h3 class="font-serif font-semibold text-stone-500 text-sm/4">Oregon Office</h3>
-                    <p class="text-stone-500 text-xs">Tillamook, Oregon</p>
+                    <h3 class="font-serif font-semibold text-stone-500 text-sm/4">Oregon</h3>
+                    <!-- <p class="text-stone-500 text-xs">Tillamook, Oregon</p> -->
                   </div>
                   <div class="rounded-md outline-2 outline-stone-200 py-4 pl-6 pr-8">
-                    <h3 class="font-serif font-semibold text-stone-500 text-sm/4">Texas Office</h3>
-                    <p class="text-stone-500 text-xs">Winona, Texas</p>
+                    <h3 class="font-serif font-semibold text-stone-500 text-sm/4">Texas</h3>
+                    <!-- <p class="text-stone-500 text-xs">Winona, Texas</p> -->
                   </div>
                 </div>
               </div>
