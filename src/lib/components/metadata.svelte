@@ -31,7 +31,6 @@
   <meta property="og:locale" content="en" />
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content={page.url.href} />
   <meta name="twitter:title" content={title} />
   <meta name="twitter:description" content={description} />
   <meta name="twitter:image" content={siteConfig.imageUrl} />
