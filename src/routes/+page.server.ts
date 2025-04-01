@@ -1,13 +1,7 @@
-// import turnstileSchema from '$lib/schemas/turnstile';
 import type { Actions } from '@sveltejs/kit';
 import { CONTACT_FORM_RECIPIENT, EMAIL_PROVIDER_KEY, TURNSTILE_SECRET } from '$env/static/private';
 import sendgridClient from '@sendgrid/mail';
-// import type { Config } from '@sveltejs/adapter-vercel';
 import { strongify } from '$lib/utils';
-
-// export const config: Config = {
-// 	runtime: 'nodejs18.x'
-// };
 
 
 import { fail } from '@sveltejs/kit';

@@ -75,13 +75,6 @@
               <h2 class="font-serif text-3xl font-bold mb-4 text-stone-600">Contact Us:</h2>
               <p class="mb-6 leading-relaxed">Please fill out the form below to contact us.</p>
 
-              <!--             
-            <div class="mt-6 flex max-w-md gap-x-4">
-              <label for="email-address" class="sr-only">Email address</label>
-              <Input type="email" required placeholder="Enter your email" class="" />
-              <Button type="submit" variant="outline">Subscribe</Button>
-            </div> -->
-
               {#if form?.success}
                 <div id="message" class="text-emerald-500 font-medium text-base">Got it! We'll be in touch.</div>
               {:else}
